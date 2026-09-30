@@ -1,0 +1,10 @@
+# local config (may contain endpoints; keys come from env)
+config.json
+# runtime state and outputs
+outbox/
+pending/
+*.jsonl
+state.json
+operator-export/
+# powershell
+*.log

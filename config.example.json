@@ -1,0 +1,21 @@
+{
+  "workspace_root": "%USERPROFILE%\\.operator",
+  "workspace": "work",
+  "llm": {
+    "endpoint": "https://REPLACE-ME/v1/chat/completions",
+    "model": "REPLACE-ME",
+    "api_key_env": "OPERATOR_LLM_KEY"
+  },
+  "outlook": {
+    "folder": "Inbox",
+    "count": 50
+  },
+  "approval": {
+    "irreversible": ["send", "delete", "move", "submit", "pay", "external_contact"],
+    "allow_send": false
+  },
+  "learning": {
+    "repetition_threshold": 3,
+    "promote_after_uses": 3
+  }
+}
